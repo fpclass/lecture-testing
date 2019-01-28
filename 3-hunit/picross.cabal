@@ -1,0 +1,26 @@
+name:                picross
+version:             1.0.0.0
+author:              Michael B. Gale
+maintainer:          m.gale@warwick.ac.uk
+copyright:           Copyright 2019 Michael B. Gale
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable play-picross
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  build-depends:       base >= 4.7 && < 5, picross
+  default-language:    Haskell2010
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Picross
+  build-depends:       base >= 4.7 && < 5
+  default-language:    Haskell2010
+
+test-suite picross-test
+  type:             exitcode-stdio-1.0
+  hs-source-dirs:   test
+  main-is:          Test.hs
+  build-depends:    base, picross, HUnit
+  default-language: Haskell2010
