@@ -1,2 +1,3 @@
-# lecture11
-Code shown in the eleventh lecture
+# Lecture: Testing
+
+Code shown in the CS141 lecture about testing.

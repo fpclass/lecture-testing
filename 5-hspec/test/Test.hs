@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 -- Functional Programming (CS141)                                             --
--- Lecture 11: Fun with testing                                               --
+-- Lecture: Fun with testing                                                  --
 --------------------------------------------------------------------------------
 
 {-# LANGUAGE ScopedTypeVariables #-}
